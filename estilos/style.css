@@ -8,27 +8,29 @@
 
 body {
     background-color: rgba(63, 63, 63, 0.795);
+    width: 95vw;
 }
 
 section {
-    max-width: 600px;
+    width: 100vw;
     margin: auto;
 }
 
 
 nav {
     background-image: linear-gradient(black,rgb(82, 41, 11));
-    width: 30%;
+    width: 22%;
     height: 100vh;
     float: left;
     box-shadow: 5px 5px 5px rgba(60, 30, 30, 0.368);
-    height: 877px;
+    height: 893px;
+   
 
 }
 
 #foto {
-    width: 98%;
-    height:170px;
+    width: 97%;
+    height:100px;
     margin-left: 2px;
     margin-top: 10px;
     background-image: url(img/foto1.jpg);
@@ -41,7 +43,7 @@ nav {
 }
 
 nav > h1 {
-    font-size: 1.3em;
+    font-size: 0.6em;
     text-align: center;
     margin-top: 5px;
     color: white;
@@ -49,11 +51,12 @@ nav > h1 {
 }
 
 #email {
-    font-size: 0.6em;
+    font-size: 0.3em;
     margin-bottom: 20px;
 }
 .dados {
    padding-top: 10px;
+ 
 }
 
 .dados,a{
@@ -68,8 +71,11 @@ nav > h1 {
     color: white;
     margin-top: 7px;
     list-style-type: none;
+    font-size: 0.7em;
     
 }
+
+
 
 a:hover {
     text-decoration: underline;
@@ -78,14 +84,13 @@ a:hover {
 
 main {
     background-color: white;
-    width: 67%;
+    width: 77%;
     height: 100%;
-    float: left;
-    margin-left: 2%;
-    margin-top: 10px;
+    float: right;
     box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.299);
-    border-radius:20px;
     text-align: justify;
+
+    
     
 }
 
@@ -94,10 +99,11 @@ main {
 h2 {
     text-align: center;
     margin-top: 12px;
+    font-size: 1.2em;
 }
 
 article{
-    padding: 20px;
+    padding: 15px;
 }
 
 .pag p{
@@ -112,10 +118,6 @@ article{
     
 }
 
-
-#pag > p > li {
-    
-}
 aside {
     display: none;
     background-image: linear-gradient( black,rgb(82, 41, 11));
