@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 @media screen and (max-width: 768px) {
 
     body {
@@ -13,63 +12,60 @@
     }
 
     nav {
-        width: 30%;
-        position: fixed;
-
-
+        width: 100px;
+        height: 100vh;
     }
 
-    nav  li {
-        font-size: 0.6em;
-    }
+    #foto {
+        width: 98%;
+        height:100px;
+   }
+  
 
     #email {
-        font-size: 0.5em;
+        font-size: 0.4em;
     }
 
-    #foto{
-        height: 200px;
-        margin-top: 20px;
-    }
+    
 
     main {
-        width: 68%;
+        width: 67%;
         font-size: 0.9em;
-        min-height:100%;
-        margin-left: 30%;
+        height:100vh;
         font-size: 0.8em;
+        
         
 
     }
 
     nav > h1 {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     h2{
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
 
-    #pag2 {
-       width: 100%;
-      
-    }
+    
 
+   
 }
 
+@media screen and (min-width: 768px) and (max-width: 992px)  /*Versão para Tablet*/ { 
 
 
-@media screen and (min-width: 769px) and (max-width: 992px)  /*Versão para Tablet*/ { 
+
+
 
 nav {
-    width: 250px;
-    height: 790px;
+    width: 200px;
+    height: 740px;
 
 }
 
 #foto {
     width: 98%;
-    height:250px;
+    height:200px;
 }
 
 #email {
@@ -78,14 +74,13 @@ nav {
 }
 
 .dados,a{   
-    font-size: 1.1em;
+    font-size: 0.9em;
   
 }
 
 main {
-    width: 65.5%;
+    width: 64%;
     height: 100%;
-    margin-left: 1%;
  
 }
 
@@ -93,11 +88,12 @@ aside {
     display: none;
 
     
+    
 }
 
 }
 
-@media screen and (min-width: 851px) and (max-width:992px) /*Versão para Tablet*/ {
+@media screen and (min-width: 992px) and (max-width:992px) /*Versão para Tablet*/ {
     
     nav {
         width: 250px;
