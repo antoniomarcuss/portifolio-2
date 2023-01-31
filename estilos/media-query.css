@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 @media screen and (max-width: 768px) {
 
     body {
@@ -27,7 +28,7 @@
     }
 
     #foto{
-        height: 120px;
+        height: 200px;
         margin-top: 20px;
     }
 
@@ -55,6 +56,8 @@
     }
 
 }
+
+
 
 @media screen and (min-width: 769px) and (max-width: 992px)  /*Versão para Tablet*/ { 
 
