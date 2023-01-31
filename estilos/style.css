@@ -8,29 +8,23 @@
 
 body {
     background-color: rgba(63, 63, 63, 0.795);
-    width: 95vw;
 }
 
-section {
-    width: 100vw;
-    margin: auto;
-}
 
 
 nav {
     background-image: linear-gradient(black,rgb(82, 41, 11));
-    width: 22%;
+    width: 20%;
     height: 100vh;
     float: left;
     box-shadow: 5px 5px 5px rgba(60, 30, 30, 0.368);
-    height: 893px;
-   
+    
 
 }
 
 #foto {
-    width: 97%;
-    height:100px;
+    width: 98%;
+    height:250px;
     margin-left: 2px;
     margin-top: 10px;
     background-image: url(img/foto1.jpg);
@@ -43,7 +37,7 @@ nav {
 }
 
 nav > h1 {
-    font-size: 0.6em;
+    font-size: 1.3em;
     text-align: center;
     margin-top: 5px;
     color: white;
@@ -51,12 +45,11 @@ nav > h1 {
 }
 
 #email {
-    font-size: 0.3em;
+    font-size: 0.8em;
     margin-bottom: 20px;
 }
 .dados {
    padding-top: 10px;
- 
 }
 
 .dados,a{
@@ -71,11 +64,8 @@ nav > h1 {
     color: white;
     margin-top: 7px;
     list-style-type: none;
-    font-size: 0.7em;
     
 }
-
-
 
 a:hover {
     text-decoration: underline;
@@ -84,13 +74,13 @@ a:hover {
 
 main {
     background-color: white;
-    width: 77%;
+    width: 58%;
     height: 100%;
-    float: right;
+    float: left;
+    margin-left: 1%;
+   
     box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.299);
     text-align: justify;
-
-    
     
 }
 
@@ -99,11 +89,11 @@ main {
 h2 {
     text-align: center;
     margin-top: 12px;
-    font-size: 1.2em;
 }
 
 article{
-    padding: 15px;
+    padding: 20px;
+    height: 100%;
 }
 
 .pag p{
@@ -118,8 +108,12 @@ article{
     
 }
 
+
+#pag > p > li {
+    
+}
 aside {
-    display: none;
+    
     background-image: linear-gradient( black,rgb(82, 41, 11));
     box-shadow: 5px 5px 5px rgba(60, 30, 30, 0.368);
     width: 20%;
