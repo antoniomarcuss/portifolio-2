@@ -60,7 +60,7 @@ nav > h1 {
     text-align: center;
     list-style-type: none;
     text-decoration: none;   
-    font-size: 1.0em;
+    font-size: 1.1em;
     color: white;
 }
 
@@ -119,6 +119,7 @@ article{
     text-indent: 20px;
 
 }
+
 
 .pag a {
     color: rgb(0, 0, 0);
