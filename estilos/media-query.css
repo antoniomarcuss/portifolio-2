@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:600px) and (max-width:800px) {
     
     
     main {
@@ -39,15 +39,18 @@
 
     #rede {
         position: relative;
-        bottom: 190px;
+        bottom: 185px;
         right: 2px;
         text-align: right;
+        
     }
 
     #rede li {
        
         list-style-type: none;
         display: inline;
+        font-size: 0.7em;
+        margin: 5px;
         
     }
 
@@ -80,20 +83,46 @@
     }
 }
 
-@media screen and (min-width:993px) {
+@media screen and (min-width:800px) {
     nav {
-        width: 700px;
+        width: 300px;
     }
 
     #foto {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         margin: auto;
     }
 
     aside{
         display: block;
-        width: 700px;
+        width: 800px;
+        position: relative;
+    }
+
+    #qrcode{
+        background-image: url(../img/qrcod-portifolio.png);
+        width: 180px;
+        height: 180px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin: auto;
+        position: relative;
+        top: 20px;
+    }
+    
+    nav h1 {
+        font-size: 1.9em;
+    }
+
+    menu {
+        font-size: 1.5em;
+    }
+
+    #email {
+        font-size: 0.7em;
     }
 
     section {
@@ -101,18 +130,27 @@
         border-radius: 15px;
     }
 
+    #menu li {
+        font-size: 2.3em;
+    }
+
 
     #rede li {
         margin: 50px;
         padding: 10px;
+        font-size: 1.6em;
+    }
+
+    #cert h1 {
+        font-size: 2em;
     }
 
     #cert p {
-        padding: 20px;
-        margin: 40px;
+        padding: 10px;
+        margin-top: 50px;
+        font-size: 1.6em;
     }
 
   
     
     
-}

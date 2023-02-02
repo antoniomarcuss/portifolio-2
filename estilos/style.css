@@ -98,7 +98,7 @@ menu li {
    text-align: center;
    text-shadow: 2px 3px 5px black;
    font-size: 0.8em;
-   margin-top: 30px;
+   margin-top: 70px;
    
 }
 
@@ -112,6 +112,7 @@ menu li {
 }
 
 #cert h1 {
+    color: white;
     font-size: 1.2em;
     text-shadow: none;
 }
@@ -170,16 +171,8 @@ aside {
     width: 100px;
 }
 
-#qrcode{
-    background-image: url(../img/qrcod-portifolio.png);
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-    margin: auto;
-    margin-top: 30px;
-}
+
+    
 
 #certificados {
     display: none;
