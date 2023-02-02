@@ -16,18 +16,14 @@ main {
     background-image: linear-gradient(#F2EEEB, #4b4a4a);
     display: flex;
     flex-wrap: nowrap;
-    vertical-align: auto;
     
-}
-
-nav,section,aside {
-  
     
 }
 
 nav {
     background-image: linear-gradient( #262625,#595857);
     width: 100px;
+
 }
 
 nav h1 {
@@ -56,11 +52,10 @@ menu {
 
 menu li {
     padding: 5px;
+    list-style-type: none;
 }
 
-menu p {
-    
-}
+
 
 #email {
     font-size: 0.5em;
@@ -73,7 +68,7 @@ menu p {
 #rede {
     text-align: center;
     margin-top: 40px;
-    text-shadow: 2px 3px 5px black;
+    
 }
 
 #rede a{
@@ -81,16 +76,22 @@ menu p {
     text-decoration: none;
 
 }
-#rede a:hover {
-    text-decoration: underline;
+#rede li:hover {
+    background-color: rgb(20, 32, 20);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.614);
+    transition: transform 0.3s,border 0.5s;
 }
 
 #rede li {
-    padding: 10px;
+    padding: 2px;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.55);
+    border-radius: 5px;
+    margin: 15px;
+    list-style-type: none;
+    
 }
-
-
-
 
 
 #cert  {
@@ -171,6 +172,6 @@ aside {
     margin-top: 30px;
 }
 
-.certificados {
+#certificados {
     display: none;
 }
