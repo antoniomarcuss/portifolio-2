@@ -65,7 +65,21 @@ section {
 }
 
 article {
-    padding: 20px;
+    padding: 15px;
+    text-align: justify;
+}
+
+article h1 {
+    text-align: center;
+}
+
+article li,a{
+    text-align: left;
+    color: #262625;
+}
+
+article a:hover{
+    color: darkred;
 }
 
 
