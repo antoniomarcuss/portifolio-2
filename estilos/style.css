@@ -4,17 +4,16 @@
     padding: 0px;
     margin: 0px;
     word-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
 body {
-   
-    font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(121, 121, 121, 0.285);  
 }
 
 main {
-    background-image: linear-gradient(#F2EEEB, #595857);
+    background-image: linear-gradient(#F2EEEB, #4b4a4a);
     display: flex;
     flex-wrap: nowrap;
     vertical-align: auto;
@@ -27,11 +26,12 @@ nav,section,aside {
 }
 
 nav {
-    background-image: linear-gradient(#262625,#A6A3A1);
+    background-image: linear-gradient( #262625,#595857);
     width: 100px;
 }
 
 nav h1 {
+    text-align: center;
     color: white;
     font-size: 0.8em;
     padding-top: 10px;
@@ -55,16 +55,71 @@ menu {
 }
 
 menu li {
-    padding: 3px;
+    padding: 5px;
+}
+
+menu p {
+    
 }
 
 #email {
-    font-size: 52%;
+    font-size: 0.5em;
 }
 
 #ctt {
     font-size: 0.9em;
 }
+
+#rede {
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 2px 3px 5px black;
+}
+
+#rede a{
+    color: white;
+    text-decoration: none;
+
+}
+#rede a:hover {
+    text-decoration: underline;
+}
+
+#rede li {
+    padding: 10px;
+}
+
+
+
+
+
+#cert  {
+   text-align: center;
+   text-shadow: 2px 3px 5px black;
+   font-size: 0.8em;
+   margin-top: 30px;
+   
+}
+
+
+#cert p {
+    padding: 10px;
+}
+
+#cert h1 {
+    font-size: 1.2em;
+    text-shadow: none;
+}
+
+#cert a{
+    color: white;
+    text-decoration: none;
+}
+
+#cert a:hover{
+    text-decoration: underline;
+}
+
 
 section {
     background-color: white;
@@ -81,6 +136,8 @@ article {
 
 article h1 {
     text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 5px;
 }
 
 article li,a{
@@ -90,6 +147,10 @@ article li,a{
 
 article a:hover{
     color: darkred;
+}
+article p {
+    text-indent: 20px;
+    
 }
 
 
@@ -108,4 +169,8 @@ aside {
     border-radius: 20px;
     margin: auto;
     margin-top: 30px;
+}
+
+.certificados {
+    display: none;
 }
