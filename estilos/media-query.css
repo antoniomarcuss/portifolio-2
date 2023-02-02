@@ -85,36 +85,34 @@
 
 @media screen and (min-width:800px) {
     nav {
-        width: 300px;
+        width: 200px;
     }
 
     #foto {
-        width: 250px;
-        height: 250px;
+        width: 198px;
+        height: 200px;
         margin: auto;
     }
 
     aside{
         display: block;
-        width: 800px;
-        position: relative;
+        width: 200px;
+    
     }
 
     #qrcode{
         background-image: url(../img/qrcod-portifolio.png);
-        width: 180px;
-        height: 180px;
+        width: 190px;
+        height: 190px;
         background-size: cover;
         background-position: center;
         border-radius: 20px;
-        margin-top: 30px;
-        margin: auto;
-        position: relative;
-        top: 20px;
+        margin: 5px;
+        
     }
     
     nav h1 {
-        font-size: 1.9em;
+        font-size: 1.4em;
     }
 
     menu {
@@ -122,13 +120,10 @@
     }
 
     #email {
-        font-size: 0.7em;
+        font-size: 0.5em;
     }
 
-    section {
-        margin: 15px;
-        border-radius: 15px;
-    }
+    
 
     #menu li {
         font-size: 2.3em;
@@ -137,7 +132,7 @@
 
     #rede li {
         margin: 50px;
-        padding: 10px;
+        padding: 0px;
         font-size: 1.6em;
     }
 
@@ -151,6 +146,32 @@
         font-size: 1.6em;
     }
 
-  
+    section {
+        margin: 15px;
+        border-radius: 15px;
+    }
+
+    article h1 {
+        font-size: 1.4em;
+    }
+
     
+
+    #proj li {
+        margin: 0px;
+        margin-top: 25px;
+    }
+
+    #proj a:hover{
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.614);
+        transition: transform 0.3s,border 0.5s;
+        text-decoration: none;
+        color: black;
+    }
+
+    
+
+  
+}
     
