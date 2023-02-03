@@ -75,12 +75,20 @@
         display: block;
     }
 
+    article {
+        padding: 20px;
+    }
+
     article h1 {
         font-size: 1.5em;
     }
 
     article p {
         margin-top: 10px;
+    }
+
+    #proj li{
+        font-size: 1em;
     }
 }
 
@@ -147,6 +155,10 @@
         border-radius: 15px;
     }
 
+    article {
+        padding: 20px;
+    }
+
     article h1 {
         font-size: 1.4em;
     }
@@ -171,6 +183,10 @@
         display: none;
     }
 
+
+    #proj li{
+        font-size: 1em;
+    }
     
 
   
