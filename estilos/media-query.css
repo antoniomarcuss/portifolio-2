@@ -39,7 +39,7 @@
 
     #rede {
         position: relative;
-        bottom: 185px;
+        bottom: 190px;
         right: 2px;
         text-align: right;
         
@@ -55,6 +55,7 @@
     }
 
     #email {
+        display: block;
         font-size: 1em;
     }
 
@@ -85,25 +86,25 @@
 
 @media screen and (min-width:800px) {
     nav {
-        width: 200px;
+        width: 150px;
     }
 
     #foto {
-        width: 198px;
-        height: 200px;
+        width: 148px;
+        height: 150px;
         margin: auto;
     }
 
     aside{
         display: block;
-        width: 200px;
+        width: 150px;
     
     }
 
     #qrcode{
         background-image: url(../img/qrcod-portifolio.png);
-        width: 190px;
-        height: 190px;
+        width: 140px;
+        height: 140px;
         background-size: cover;
         background-position: center;
         border-radius: 20px;
@@ -112,27 +113,22 @@
     }
     
     nav h1 {
-        font-size: 1.4em;
+        font-size: 1.1em;
     }
 
     menu {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     #email {
+        display: block;
         font-size: 0.5em;
+        margin-bottom: 10px;
     }
-
-    
-
-    #menu li {
-        font-size: 2.3em;
-    }
-
 
     #rede li {
-        margin: 50px;
-        padding: 0px;
+        margin-top: 20px;
+        padding: 5px;
         font-size: 1.6em;
     }
 
@@ -141,8 +137,8 @@
     }
 
     #cert p {
-        padding: 10px;
-        margin-top: 50px;
+        padding: 5px;
+        margin-top: 30px;
         font-size: 1.6em;
     }
 
@@ -168,6 +164,11 @@
         transition: transform 0.3s,border 0.5s;
         text-decoration: none;
         color: black;
+    }
+
+
+    #cert{
+        display: none;
     }
 
     

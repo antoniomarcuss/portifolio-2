@@ -3,7 +3,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    word-wrap: break-word;
+    
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -58,6 +58,7 @@ menu li {
 
 
 #email {
+    display: none;
     font-size: 0.5em;
 }
 
@@ -68,6 +69,7 @@ menu li {
 #rede {
     text-align: center;
     margin-top: 40px;
+    font-size: 0.7em;
     
 }
 
@@ -87,7 +89,7 @@ menu li {
     border: 1px solid white;
     padding: 2px;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.55);
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 15px;
     list-style-type: none;
     
@@ -105,8 +107,8 @@ menu li {
 
 #cert p {
     border: 1px solid white;
-    padding: 3px;
-    margin: 20px;
+    
+    margin: 15px;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.55);
     border-radius: 5px;
 }
@@ -169,6 +171,47 @@ aside {
     display: none;
     background-image: linear-gradient(#262625,#A6A3A1);
 }
+
+
+
+#asidecert  {
+    text-align: center;
+    text-shadow: 2px 3px 5px black;
+    font-size: 0.8em;
+    margin-top: 70px;
+    
+ }
+ 
+ 
+ #asidecert p {
+     border: 1px solid white;
+     padding: 5px;
+     margin: 25px;
+     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.55);
+     border-radius: 15px;
+ }
+ 
+ #asidecert h1 {
+     color: white;
+     font-size: 1.8em;
+     text-shadow: none;
+ }
+ 
+ #asidecert a{
+     color: white;
+     text-decoration: none;
+ }
+ 
+ #asidecert p:hover{
+     border: 1px solid rgb(255, 255, 255);
+     background-color: rgb(33, 40, 33);
+     transform: translate(-3px, -3px);
+     box-shadow: 5px 5px 10px rgba(77, 77, 77, 0.614);
+     transition: transform 0.3s,border 0.5s;
+     
+ }
+
+
 
 
 
