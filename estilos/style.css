@@ -16,31 +16,56 @@ main {
     background-image: linear-gradient(#F2EEEB, #4b4a4a);
     display: flex;
     flex-wrap: nowrap;
+    max-width: 100vw;
+    margin: auto;
     
     
-}
-
-nav {
-    background-image: linear-gradient( #262625,#595857);
-  
-
 }
 
 nav h1 {
     text-align: center;
     color: white;
-    font-size: 0.8em;
-    padding-top: 10px;
+    font-size: 0.7em;
+    margin-top: 10px;
 }
+
+nav {
+    background-image: linear-gradient( #262625,#595857);
+    width: 150px;
+  
+
+}
+
+
 
 #foto {
    background-image: url(../img/foto1.jpg);
-   width: 80px;
-   height: 80px;
+   width: 90px;
+   height: 90px;
    background-size: cover;
    background-position: center;
    border-radius: 100%;
    margin-top: 5px ;
+   margin: auto;
+}
+
+aside{
+    display: none;
+    width: 150px;
+
+}
+
+
+#qrcode{
+    background-image: url(../img/qrcod-portifolio.png);
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin: auto;
+
+    
 }
 
 menu {
@@ -63,7 +88,7 @@ menu li {
 }
 
 #ctt {
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 #rede {
@@ -87,7 +112,7 @@ menu li {
 
 #rede li {
     border: 1px solid white;
-    padding: 2px;
+    padding: 5px;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.55);
     border-radius: 10px;
     margin: 15px;
@@ -107,7 +132,7 @@ menu li {
 
 #cert p {
     border: 1px solid white;
-    
+    padding: 2px;
     margin: 15px;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.55);
     border-radius: 5px;
@@ -136,13 +161,12 @@ menu li {
 
 section {
     background-color: white;
-    max-width: 100vw;
-    
-    
-    
+    width: 400px;
+    margin: auto;
 }
 
 article {
+   
     margin-top: 10px;
     padding: 5px;
     text-align: justify;
@@ -171,6 +195,14 @@ article p {
     font-size: 90%;
 }
 
+
+#proj a:hover{
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.614);
+    transition: transform 0.3s,border 0.5s;
+    text-decoration: none;
+    color: black;
+}
 
 aside {
     display: none;
