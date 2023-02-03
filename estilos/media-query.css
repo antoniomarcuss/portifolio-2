@@ -102,6 +102,7 @@
         width: 148px;
         height: 150px;
         margin: auto;
+        margin-top: 10px;
     }
 
     aside{
@@ -111,13 +112,14 @@
     }
 
     #qrcode{
-        background-image: url(../img/qrcod-portifolio.png);
+        background-image: url(/img/qrcode.png);
         width: 140px;
         height: 140px;
         background-size: cover;
         background-position: center;
         border-radius: 20px;
         margin: auto;
+        margin-top: 20px;
 
         
     }
@@ -153,7 +155,7 @@
     }
 
     section {
-        min-width: 500px;
+        min-width: 450px;
         border-radius: 15px;
         margin: auto;
     }

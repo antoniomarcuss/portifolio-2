@@ -57,7 +57,7 @@ aside{
 
 
 #qrcode{
-    background-image: url(../img/qrcod-portifolio.png);
+    background-image: url(/img/qrcode.png);
     width: 90px;
     height: 90px;
     background-size: cover;
