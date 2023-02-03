@@ -51,7 +51,6 @@
         list-style-type: none;
         display: inline;
         margin: 4px;
-        
     }
 
     #email {
@@ -138,10 +137,18 @@
         margin-bottom: 10px;
     }
 
+    #rede {
+
+    }
+
     #rede li {
-        margin-top: 30px;
+        margin: auto;
+        margin-top: 40px;
         padding: 5px;
         font-size: 1.6em;
+        width: 50%;
+        
+        
     }
 
     #cert h1 {
@@ -175,11 +182,15 @@
         
     }
 
-    
-
-
     #cert{
         display: none;
+    }
+
+    #asidecert p {
+        margin: auto;
+        width: 60%;
+        margin-top: 40px;
+
     }
 
 
