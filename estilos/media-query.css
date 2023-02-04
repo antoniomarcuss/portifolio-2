@@ -88,6 +88,8 @@
 
     #proj li{
         font-size: 1em;
+        word-break: normal;
+     
     }
 }
 
@@ -178,7 +180,7 @@
     
 
     #proj li {
-        margin: 0px;
+        word-break: normal;
         
     }
 
